@@ -1,0 +1,687 @@
+.content-4 .row {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 10px;
+}
+
+.content-4 .row div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  height: auto;
+  margin-left: 50px;
+  min-height: 25vw;
+  border-bottom: 3px solid #2db6fa;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.content-4 .row div:nth-child(1) #icon {
+  color: #2db6fa;
+  background: #dbf3fe;
+  border-radius: 3px;
+  font-size: 2.5vw;
+  padding: 15px;
+  margin-top: 16px;
+  transition: 0.3s;
+}
+
+.content-4 .row div h3 {
+  color: #444444;
+  font-weight: 700;
+  font-size: 2vw;
+  margin: 15px;
+  transition: 0.3s;
+}
+
+.content-4 .row div p {
+  font-size: 1.1vw;
+  padding: 5px;
+  text-wrap: wrap;
+  transition: 0.3s;
+}
+.content-4 .row div:nth-child(1) span {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #2db6fa;
+  font-size: 1.3vw;
+}
+
+.content-4 .row div:nth-child(1):hover {
+  background: #2db6fa;
+}
+
+.content-4 .row div:nth-child(1):hover #icon {
+  background-color: #fff;
+}
+
+.content-4 .row div:hover span {
+  color: white;
+}
+
+/* ------------------------- */
+.content-4 .row div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  height: auto;
+  margin-left: 50px;
+  min-height: 25vw;
+  border-bottom: 3px solid #f68c09;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.content-4 .row div:nth-child(2) #icon {
+  color: #f68c09;
+  background: #fde3c4;
+  border-radius: 3px;
+  font-size: 2.5vw;
+  padding: 15px;
+  margin-top: 16px;
+  transition: 0.3s;
+}
+
+.content-4 .row div:nth-child(2) span {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #f68c09;
+  font-size: 1.3vw;
+}
+
+.content-4 .row div:nth-child(2):hover {
+  background: #f68c09;
+}
+
+.content-4 .row div:nth-child(2):hover #icon {
+  background-color: #fff;
+}
+
+.content-4 .row div:hover h3 {
+  color: white;
+}
+.content-4 .row div:hover p {
+  color: white;
+}
+
+.content-4 .row div:hover span {
+  color: #fff;
+}
+
+/* ------------------------- */
+.content-4 .row div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  height: auto;
+  margin-left: 50px;
+  min-height: 25vw;
+  border-bottom: 3px solid #08da4e;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.content-4 .row div:nth-child(3) #icon {
+  color: #08da4e;
+  background: #cffddf;
+  border-radius: 3px;
+  font-size: 2.5vw;
+  padding: 15px;
+  margin-top: 16px;
+  transition: 0.3s;
+}
+
+.content-4 .row div:nth-child(3) span {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #08da4e;
+  font-size: 1.3vw;
+}
+
+.content-4 .row div:nth-child(3):hover {
+  background: #08da4e;
+}
+
+.content-4 .row div:nth-child(3):hover #icon {
+  background-color: #fff;
+}
+
+.content-4 .row div:nth-child(3):hover span {
+  color: white;
+}
+
+/* ------------------------- */
+.content-4 .row div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  height: auto;
+  margin-left: 50px;
+  min-height: 25vw;
+  border-bottom: 3px solid #e9222c;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.content-4 .row div:nth-child(4) #icon {
+  color: #e9222c;
+  background: #fef7f8;
+  border-radius: 3px;
+  font-size: 2.5vw;
+  padding: 15px;
+  margin-top: 16px;
+  transition: 0.3s;
+}
+
+.content-4 .row div:nth-child(4) span {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #e9222c;
+  font-size: 1.3vw;
+}
+
+.content-4 .row div:nth-child(4):hover {
+  background: #e9222c;
+}
+
+.content-4 .row div:nth-child(4):hover #icon {
+  background-color: #fff;
+}
+
+.content-4 .row div:nth-child(4):hover span {
+  color: white;
+}
+
+/* ------------------------- */
+.content-4 .row div:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  height: auto;
+  margin-left: 50px;
+  min-height: 25vw;
+  border-bottom: 3px solid #b50edf;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.content-4 .row div:nth-child(5) #icon {
+  color: #b50edf;
+  background: #f8e4fd;
+  border-radius: 3px;
+  font-size: 2.5vw;
+  padding: 15px;
+  margin-top: 16px;
+  transition: 0.3s;
+}
+
+.content-4 .row div:nth-child(5) span {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #b50edf;
+  font-size: 1.3vw;
+}
+
+.content-4 .row div:nth-child(5):hover {
+  background: #b50edf;
+}
+
+.content-4 .row div:nth-child(5):hover #icon {
+  background-color: #fff;
+}
+
+.content-4 .row div:nth-child(5):hover span {
+  color: white;
+}
+
+/* ------------------------- */
+.content-4 .row div:nth-child(6) {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  height: auto;
+  margin-left: 50px;
+  min-height: 25vw;
+  border-bottom: 3px solid #f51f9c;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.content-4 .row div:nth-child(6) #icon {
+  color: #f51f9c;
+  background: #feecf7;
+  border-radius: 3px;
+  font-size: 2.5vw;
+  padding: 15px;
+  margin-top: 16px;
+  transition: 0.3s;
+}
+
+.content-4 .row div:nth-child(6) span {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #f51f9c;
+  font-size: 1.3vw;
+}
+
+.content-4 .row div:nth-child(6):hover {
+  background: #f51f9c;
+}
+
+.content-4 .row div:nth-child(6):hover #icon {
+  background-color: #fff;
+}
+
+.content-4 .row div:nth-child(6):hover span {
+  color: white;
+}
+
+
+--------------------------------------------------
+
+ .content-4 .row {
+    width: 97%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .content-4 .row div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    height: 100%;
+    margin: 8px;
+
+    border-bottom: 3px solid #2db6fa;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+  .content-4 .row div:nth-child(1) #icon {
+    color: #2db6fa;
+    background: #dbf3fe;
+    border-radius: 3px;
+    font-size: 8vw;
+    padding: 15px;
+    margin-top: 16px;
+    transition: 0.3s;
+  }
+
+  .content-4 .row div h3 {
+    color: #444444;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 15px;
+    transition: 0.3s;
+  }
+
+  .content-4 .row div p {
+    font-size: 1em;
+    padding: 5px;
+    text-wrap: wrap;
+    transition: 0.3s;
+  }
+  .content-4 .row div:nth-child(1) span {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #2db6fa;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .content-4 .row div:nth-child(1):hover {
+    background: #2db6fa;
+  }
+
+  .content-4 .row div:nth-child(1):hover #icon {
+    background-color: #fff;
+  }
+
+  .content-4 .row div:hover span {
+    color: white;
+  }
+
+  /* ------------------------------------------------------------------------------ */
+  .content-4 .row div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    height: 100%;
+    margin: 8px;
+
+    border-bottom: 3px solid #f68c09;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+  .content-4 .row div:nth-child(2) #icon {
+    color: #f68c09;
+    background: #fde3c4;
+    border-radius: 3px;
+    font-size: 8vw;
+    padding: 15px;
+    margin-top: 16px;
+    transition: 0.3s;
+  }
+
+  .content-4 .row div:nth-child(2) span {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #f68c09;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .content-4 .row div:nth-child(2):hover {
+    background: #f68c09;
+  }
+
+  .content-4 .row div:nth-child(2):hover #icon {
+    background-color: #fff;
+  }
+
+  .content-4 .row div:hover h3 {
+    color: white;
+  }
+  .content-4 .row div:hover p {
+    color: white;
+  }
+
+  .content-4 .row div:hover span {
+    color: #fff;
+  }
+
+  /* ------------------------- */
+
+  .content-4 .row div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    height: 100%;
+    margin: 8px;
+
+    border-bottom: 3px solid #08da4e;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+  .content-4 .row div:nth-child(3) #icon {
+    color: #08da4e;
+    background: #cffddf;
+    border-radius: 3px;
+    font-size: 8vw;
+    padding: 15px;
+    margin-top: 16px;
+    transition: 0.3s;
+  }
+
+  .content-4 .row div:nth-child(3) span {
+    color: #08da4e;
+    cursor: pointer;
+    transition: 0.3s;
+
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .content-4 .row div:nth-child(3):hover {
+    background: #08da4e;
+  }
+
+  .content-4 .row div:nth-child(3):hover #icon {
+    background-color: #fff;
+  }
+
+  .content-4 .row div:nth-child(3):hover span {
+    color: white;
+  }
+
+  /* ------------------------- */
+
+  /* ------------------------- */
+  .content-4 .row div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    height: 100%;
+    margin: 8px;
+
+    border-bottom: 3px solid #e9222c;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+  .content-4 .row div:nth-child(4) #icon {
+    color: #e9222c;
+    background: #fef7f8;
+    border-radius: 3px;
+    font-size: 8vw;
+    padding: 15px;
+    margin-top: 16px;
+    transition: 0.3s;
+  }
+
+  .content-4 .row div:nth-child(4) span {
+    color: #e9222c;
+    cursor: pointer;
+    transition: 0.3s;
+
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .content-4 .row div:nth-child(4):hover {
+    background: #e9222c;
+  }
+
+  .content-4 .row div:nth-child(4):hover #icon {
+    background-color: #fff;
+  }
+
+  .content-4 .row div:nth-child(4):hover span {
+    color: white;
+  }
+
+  /* ------------------------- */
+
+  .content-4 .row div:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    height: 100%;
+    margin: 8px;
+
+    border-bottom: 3px solid #b50edf;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+  .content-4 .row div:nth-child(5) #icon {
+    color: #b50edf;
+    background: #f8e4fd;
+    border-radius: 3px;
+    font-size: 8vw;
+    padding: 15px;
+    margin-top: 16px;
+    transition: 0.3s;
+  }
+
+  .content-4 .row div:nth-child(5) span {
+    color: #b50edf;
+    cursor: pointer;
+    transition: 0.3s;
+
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .content-4 .row div:nth-child(5):hover {
+    background: #b50edf;
+  }
+
+  .content-4 .row div:nth-child(5):hover #icon {
+    background-color: #fff;
+  }
+
+  .content-4 .row div:nth-child(5):hover span {
+    color: white;
+  }
+
+  /* ------------------------- */
+  .content-4 .row div:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    height: 100%;
+    margin: 8px;
+
+    border-bottom: 3px solid #f51f9c;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+  .content-4 .row div:nth-child(6) #icon {
+    color: #f51f9c;
+    background: #feecf7;
+    border-radius: 3px;
+    font-size: 8vw;
+    padding: 15px;
+    margin-top: 16px;
+    transition: 0.3s;
+  }
+
+  .content-4 .row div:nth-child(6) span {
+    color: #f51f9c;
+    cursor: pointer;
+    transition: 0.3s;
+
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .content-4 .row div:nth-child(6):hover {
+    background: #f51f9c;
+  }
+
+  .content-4 .row div:nth-child(6):hover #icon {
+    background-color: #fff;
+  }
+
+  .content-4 .row div:nth-child(6):hover span {
+    color: white;
+  }
+
+  ----------------------------------
+  <section class="content-6">
+  <div class="row" data-aos="fade-up" data-aos-duration="1000">
+    <div class="box">
+      <div class="icon1">
+        <i class="ri-emotion-happy-line"></i>
+      </div>
+      <div>
+        <span
+          data-purecounter-start="100"
+          data-purecounter-end="208"
+          data-purecounter-duration="1"
+          class="purecounter"
+          >208</span
+        >
+
+        <p>Happy Clints</p>
+      </div>
+    </div>
+
+    <!-- ---------------------------------- -->
+    <div class="box">
+      <div class="icon2">
+        <i class="ri-file-text-line"></i>
+      </div>
+      <div>
+        <span
+          data-purecounter-start="100"
+          data-purecounter-end="389"
+          data-purecounter-duration="1"
+          class="purecounter"
+          >389</span
+        >
+
+        <p>Projects</p>
+      </div>
+    </div>
+
+    <!-- ---------------------------------- -->
+    <div class="box">
+      <div class="icon3">
+        <i class="ri-customer-service-line"></i>
+      </div>
+      <div>
+        <span
+          data-purecounter-start="100"
+          data-purecounter-end="4463"
+          data-purecounter-duration="1"
+          class="purecounter"
+          >4463</span
+        >
+
+        <p>Hours Of Support</p>
+      </div>
+    </div>
+
+    <!-- ---------------------------------- -->
+    <div class="box">
+      <div class="icon4">
+        <i class="ri-group-line"></i>
+      </div>
+      <div>
+        <span
+          data-purecounter-start="10"
+          data-purecounter-end="18"
+          data-purecounter-duration="1"
+          class="purecounter"
+          >18</span
+        >
+
+        <p>Hard Workers</p>
+      </div>
+    </div>
+  </div>
+</section>
