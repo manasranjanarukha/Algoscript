@@ -1491,6 +1491,22 @@ a {
     font-size: 1.5em;
     margin-top: 0;
   }
+
+  .content-8 .row .service-box{
+    transition: 0.3s;
+  }
+
+  .content-8 .row .service-box #icon{
+    transition: 0.3s;
+  }
+
+  .content-8 .row .service-box h3{
+    transition: 0.3s;
+  }
+
+  .content-8 .row .service-box a{
+    transition: 0.3s;
+  }
 }
 
 /* end of content-8 */
