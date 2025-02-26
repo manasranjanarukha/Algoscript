@@ -169,6 +169,63 @@ html {
 
 /* ---------------------------------------------------------------------------------- */
 
+.content-1 {
+  margin-top: 130px;
+  width: 100%;
+  height: 80%;
+}
+
+.content-1 .row {
+  margin: 180px 70px 100px 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-1 .row #div-1 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-1 .row #div-1 h1 {
+  font-weight: 700;
+  color: #1e2d40;
+  font-size: 2.5vw;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+.content-1 .row #div-1 p {
+  font-weight: 500;
+  color: #1e2d40;
+  font-size: 1.4vw;
+  text-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.content-1 .row #div-2 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-1 .row #div-2 img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* end of content-1 */
+
+
+
+
+
 
 footer {
   width: 100%;
@@ -411,6 +468,61 @@ a {
 /* end of navbar */
 /* ------------------------------------------------------------------------------ */
 
+
+/* content-1 */
+@media (max-width: 800px) {
+  .content-1 {
+    height: auto;
+    margin: 0;
+  }
+  .content-1 .row {
+    margin: 100px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .content-1 .row #div-1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-1 .row #div-1 h1 {
+    font-weight: 700;
+    color: #1e2d40;
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .content-1 .row #div-1 p {
+    font-weight: 500;
+    color: #1e2d40;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0;
+  }
+
+  .content-1 .row #div-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-1 .row #div-2 img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* end of content-1 */
+/* ------------------------------------------------------------------------------ */
 
 
 /* content-9 */
