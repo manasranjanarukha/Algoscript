@@ -64,7 +64,7 @@ html {
   font-family: 'Nunito', sans-serif;
 }
 
-.dropdown1 ul li a {
+a {
   text-decoration: none;
   text-transform: none;
   color: black;

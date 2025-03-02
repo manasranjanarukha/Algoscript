@@ -65,7 +65,7 @@ html {
   cursor: pointer;
 }
 
-.dropdown1 ul li a {
+a {
   text-decoration: none;
   text-transform: none;
   color: black;
