@@ -169,6 +169,12 @@ html {
   display: none;
 }
 
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+}
+
 /* end of mobile nav */
 
 /* ---------------------------------------------------------------------------------- */
