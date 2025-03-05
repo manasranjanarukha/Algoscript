@@ -713,6 +713,7 @@ svg {
   font-weight: 500;
   font-size: 1.2vw;
 }
+
 .content-6 .heading h1 {
   font-weight: 700;
   text-align: center;
@@ -722,17 +723,19 @@ svg {
 }
 
 .content-6 .row {
-  height: 600px;
+  height: 300px;
   width: 100%;
-
   display: flex;
   justify-content: center;
 }
 
-/* clint swipper */
+/* asp swipper */
 .swiper {
   width: 100%;
-  height: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide {
@@ -743,10 +746,14 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 50px;
+  width: 200px;
+  margin: 0;
 }
 
 .swiper-slide #img {
-  font-size: 5rem;
+  margin-top: 40px;
+  width: 200px;
 }
 
 .swiper-pagination .swiper-pagination-bullet {
@@ -754,12 +761,54 @@ svg {
   background-color: #1e2d40;
 }
 
+@media (max-width: 800px) {
+  .content-6 {
+    width: 100%;
+  }
+
+  .content-6 .heading h2 {
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    color: #1e2d40 !important;
+    text-transform: uppercase !important;
+  }
+
+  .content-6 .heading h1 {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+
+  .swiper-slide {
+    width: 200px;
+  }
+
+  .swiper {
+    width: 100%;
+    margin: 10px;
+    height: 300px;
+  }
+
+  .swiper-slide #img {
+    width: 9.5em;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet {
+    color: white;
+    background-color: #1e2d40;
+    margin-top: -5000px;
+  }
+}
+
 /* end of content-6 */
 
 .content-7 {
   width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .content-7 .heading h2 {
@@ -1367,48 +1416,6 @@ margin-top: 30px;
 
 /* ------------------------------------------------------------------------------ */
 
-/* content-6 */
-
-@media (max-width: 800px) {
-  .content-6 {
-    width: 97%;
-  }
-
-  .content-6 .heading h2 {
-    font-size: 13px !important;
-    letter-spacing: 1px !important;
-    font-weight: 700 !important;
-    margin: 0 !important;
-    color: #1e2d40 !important;
-    text-transform: uppercase !important;
-  }
-  .content-6 .heading h1 {
-    font-size: 20px;
-    line-height: 32px;
-    padding: 0;
-    margin: 10px 0 0 0;
-  }
-
-  .swiper {
-    width: 100%;
-
-    margin: 10px;
-    height: 350px;
-  }
-
-  .swiper-slide #img {
-    width: 12rem;
-  }
-  .swiper-pagination .swiper-pagination-bullet {
-    color: white;
-    background-color: #1e2d40;
-    margin-top: -5000px;
-  }
-}
-
-/*  end of content-6 */
-
-/* ------------------------------------------------------------------------------ */
 
 /* content-7 */
 
@@ -1452,7 +1459,7 @@ margin-top: 30px;
   }
 
   .content-7 .testimonials p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-style: italic;
     text-align: center;
     margin: 20px;
@@ -1460,11 +1467,11 @@ margin-top: 30px;
 
   .content-7 .testimonials img {
     width: 20vw;
-    border-radius: 20px;
+    border-radius: 50px;
   }
 
   .content-7 .testimonials h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 700;
   }
 
