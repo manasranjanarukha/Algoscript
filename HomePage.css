@@ -753,12 +753,14 @@ svg {
 
 .swiper-slide #img {
   margin-top: 40px;
-  width: 200px;
+  width: 150px;
 }
 
-.swiper-pagination .swiper-pagination-bullet {
+.swiper-pagination .swiper-pagination-bullet{
   color: white;
   background-color: #1e2d40;
+ 
+
 }
 
 @media (max-width: 800px) {
@@ -797,9 +799,10 @@ svg {
   }
 
   .swiper-pagination .swiper-pagination-bullet {
+   
     color: white;
     background-color: #1e2d40;
-    margin-top: -5000px;
+    /* margin-top: 5000px; */
   }
 }
 
