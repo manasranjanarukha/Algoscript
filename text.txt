@@ -151,3 +151,104 @@ ___________________________
       <div class="swiper-pagination "></div>
     </div>
 </section>
+
+
+
+
+
+
+
+
+---------------------------------------------------
+
+ <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
+        <img src="./image/p-6.webp" alt="p-6" loading="lazy" />
+        <img src="./image/p-5.webp" alt="p-5" loading="lazy" />
+        <img src="./image/net-9.webp" alt="net-9" loading="lazy" />
+        <img src="./image/pm-1.webp" alt="pm-1" loading="lazy" />
+        <img src="./image/net-1.webp" alt="net-1" loading="lazy" />
+        <img src="./image/p-1.webp" alt="p-1" loading="lazy" />
+        <img src="./image/p-8.webp" alt="p-8" loading="lazy" />
+        <img src="./image/pr-6.webp" alt="pr-6" loading="lazy" />
+        <img src="./image/p-2.webp" alt="p-2" loading="lazy" />
+        <img src="./image/net-2.webp" alt="net-2" loading="lazy" />
+        <img src="./image/net-10.webp" alt="net-10" loading="lazy" />
+        <img src="./image/net-11.webp" alt="net-11" loading="lazy" />
+        <img src="./image/p-11.webp" alt="p-11" loading="lazy" />
+        <img src="./image/pr-5.webp" alt="pr-5" loading="lazy" />
+        <img src="./image/pr-7.webp" alt="pr-7" loading="lazy" />
+        <img src="./image/p-9.webp" alt="p-9" loading="lazy" />
+        <img src="./image/net-6.webp" alt="net-6" loading="lazy" />
+        <img src="./image/mohit.webp" alt="mohit" loading="lazy" />
+        <img src="./image/net-3.webp" alt="net-3" loading="lazy" />
+        <img src="./image/p-4.webp" alt="p-4" loading="lazy" />
+        <img src="./image/net-7.webp" alt="net-7" loading="lazy" />
+        <img src="./image/net-8.webp" alt="net-8" loading="lazy" />
+        <img src="./image/mobile-1.webp" alt="mobile-1" loading="lazy" />
+        <img src="./image/mobile-2.webp" alt="mobile-2" loading="lazy" />
+        <img src="./image/mobile-3.webp" alt="mobile-3" loading="lazy" />
+        <img src="./image/mobile-4.webp" alt="mobile-4" loading="lazy" />
+        <img src="./image/mobile-5.webp" alt="mobile-5" loading="lazy" />
+        <img src="./image/mobile-6.webp" alt="mobile-6" loading="lazy" />
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="info">
+            <h1>Hashcut
+             </h1>
+         <p> With Hashcut Chrome extension, you can clip, annotate and share directly from YouTube!</p>
+            <i class="ri-link"></i>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <!-- <div class="img-wrapper">
+          <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
+
+          <div class="info">
+            <h1>Company Name</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga quam corporis laborum inventore non, excepturi laboriosam officiis error magnam.</p>
+         <i class="ri-link"></i>
+          </div>
+          
+        </div>
+
+        <div class="img-wrapper">
+          <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
+          <div class="info">
+            <h1>Company Name</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias explicabo non omnis laboriosam ut at ipsam impedit deserunt illo pariatur.</p>
+        <i class="ri-link"></i>
+          </div>
+        </div>
+
+        <div class="img-wrapper">
+          <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
+          <div class="info">
+            <h1>Company Name</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem mollitia nostrum error ex? Delectus nobis iure illum ipsa quia nulla.</p>
+            <i class="ri-link"></i>
+          </div>
+        </div> -->
+
+        <!-- ------------------------------- -->
