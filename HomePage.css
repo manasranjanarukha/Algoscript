@@ -227,6 +227,10 @@ a {
   border-radius: 5px;
 
 }
+
+.content-1 .row .left button a{
+  color: #fff;
+}
 .content-1 .row .left button i {
   font-weight: 600;
   font-size: 1em;

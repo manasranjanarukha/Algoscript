@@ -693,7 +693,9 @@ a {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+.content-7 .row .div-2 .btn a{
+  color: #fff;
+}
 .content-7 .row .div-2 .btn {
   text-align: center;
   display: inline-block;

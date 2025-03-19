@@ -620,6 +620,24 @@ a {
   display: none;
 }
 
+
+@media (max-width: 800px) {
+  .content-2 .heading h2 {
+    text-align: center;
+    color: #1e2d40;
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  .content-2 .heading h1 {
+    font-weight: 700;
+    text-align: center;
+    color: #1e2d40;
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+}
 footer {
   width: 100%;
   height: 300px;

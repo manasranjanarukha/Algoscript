@@ -1063,7 +1063,9 @@ p.show {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+.content-8 .row .div-2 .btn a{
+  color: #fff;
+}
 .content-8 .row .div-2 .btn {
   text-align: center;
   display: inline-block;

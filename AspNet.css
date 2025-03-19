@@ -958,8 +958,16 @@ p.show {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
+
+}
+ a {
+  color: black;
+  text-decoration: none; /* Removes underline */
 }
 
+.content-6 .row .div-2 .btn a{
+  color: #fff;
+}
 .content-6 .row .div-2 .btn i {
   margin-left: 5px;
   font-size: 18px;
