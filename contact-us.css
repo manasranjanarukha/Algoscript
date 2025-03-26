@@ -165,7 +165,6 @@ a {
   display: none;
 }
 
-
 @media (max-width: 800px) {
   [data-aos] {
     opacity: 1 !important; /* Set opacity to fully visible */
@@ -183,7 +182,8 @@ a {
   }
 
   .nav img {
-    height: 10vw;
+    margin-left: 13px;
+    height: 13vw;
     max-height: 60px;
   }
   .nav-part2 {
@@ -259,8 +259,6 @@ a {
 /* end of mobile nav */
 /* ---------------------------------------------------------------------------------- */
 
-
-
 .content-1 {
   margin-top: 130px;
   width: 100%;
@@ -280,7 +278,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 .content-1 .row #div-1 h1 {
   font-weight: 700;
@@ -365,11 +362,10 @@ a {
 
 /* end of content-1 */
 
-
-.content-2{
+.content-2 {
   margin-top: 70px;
-width: 100%;
-height: 80%;
+  width: 100%;
+  height: 80%;
 }
 
 .content-2 .heading h2 {
@@ -378,76 +374,65 @@ height: 80%;
   font-weight: 500;
   font-size: 1.1vw;
   text-transform: uppercase;
-  }
-  
-  .content-2 .heading h1 {
+}
+
+.content-2 .heading h1 {
   font-weight: 700;
   text-align: center;
   color: #1e2d40;
   font-size: 2.5vw;
   margin-top: 0;
-  }
+}
 
 .content-2 .row {
- 
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  
+  margin: 50px;
 }
 
-.content-2 .row .div-1{
-
-
+.content-2 .row .div-1 {
   display: flex;
   flex-wrap: wrap;
-  
+
   gap: 20px;
 }
 
-.content-2 .row .div-1 .box{
+.content-2 .row .div-1 .box {
   background: #fafbff;
 
   width: 250px;
 }
 
-.content-2 .row .div-1 .box i{
+.content-2 .row .div-1 .box i {
   font-size: 3em;
   color: #1e2d40;
   padding-left: 20px;
-
- 
 }
 
-.content-2 .row .div-1 .box h3{
+.content-2 .row .div-1 .box h3 {
   font-weight: 700;
   color: #1e2d40;
   font-size: 1.5em;
- margin-top: 10px;
- padding-left: 20px;
-
- 
+  margin-top: 10px;
+  padding-left: 20px;
 }
 
-.content-2 .row .div-1 .box p{
+.content-2 .row .div-1 .box p {
   font-weight: 500;
   color: #1e2d40;
   font-size: 1.1em;
   padding-left: 20px;
-
-
 }
 
 @media (max-width: 800px) {
-
   .content-2 .heading h2 {
     text-align: center;
     color: #1e2d40;
     font-weight: 500;
     font-size: 1em;
-
   }
 
   .content-2 .heading h1 {
@@ -457,32 +442,36 @@ height: 80%;
     font-size: 1.7em;
     margin-top: 0;
   }
-  .content-2 .row .div-1{
+  .content-2 .row {
+    margin: 0;
+  }
+
+  .content-2 .row .div-1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
-
 }
-
 
 footer {
   width: 100%;
-  height: 300px;
+  height: 100%;
   margin-top: 50px;
 }
 
 footer .row {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   margin: 50px;
 }
 
 footer .row div:nth-child(1) {
+  padding: 10px;
+
   width: 40%;
 }
 footer .row div:nth-child(1) img {
@@ -535,7 +524,7 @@ footer .row div:nth-child(2) ul li {
   color: #013289;
   margin-bottom: 15px;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.05em;
 }
 
 footer .row div:nth-child(2) ul li:hover {
@@ -547,6 +536,7 @@ footer .row div:nth-child(3) {
 }
 
 footer .row div:nth-child(3) h4 {
+  position: relative;
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -562,7 +552,7 @@ footer .row div:nth-child(3) ul li {
   color: #013289;
   margin-bottom: 15px;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.05em;
 }
 
 footer .row div:nth-child(3) ul li:hover {
@@ -586,7 +576,7 @@ footer .row div:nth-child(4) a:hover {
 footer .row div:nth-child(4) h4 {
   font-size: 1.1em;
   font-weight: bold;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 footer .row div:nth-child(4) ul {
@@ -618,19 +608,19 @@ a {
 @media (max-width: 800px) {
   footer {
     width: 100%;
-    height: 400px;
+    height: 700px;
     margin-top: 50px;
   }
 
   footer .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 1px;
     gap: 10px;
   }
 
   footer .row div:nth-child(1) {
-    width: 500px;
+    width: 100%;
   }
   footer .row div:nth-child(1) img {
     font-size: 1em;
@@ -718,6 +708,10 @@ a {
   footer .row div:nth-child(4) h4 {
     font-size: 1.1em;
     font-weight: bold;
+  }
+
+  footer .row div:nth-child(4) p {
+    font-size: 0.9em;
   }
 
   footer .row div:nth-child(4) ul {
