@@ -1,254 +1,379 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <title>Swiper demo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-  <!-- Demo styles -->
-  <style>
-    html,
-    body {
-      position: relative;
-      height: 100%;
-    }
-
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
-
-    .swiper {
-      width: 100%;
-      height: 30%;
-    }
-
-    .swiper-slide {
-      border: 2px solid black;
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-      width: 100px;
-    }
-
-    .swiper-slide img {
-width: 5vw;
-    
-      object-fit: cover;
-    }
-
-    .mySwiper .swiper-pagination .swiper-pagination-bullet {
-   
-     background-color: #1e2d40;
+footer {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
 }
 
+footer .row {
+  display: flex;
+  height: auto;
 
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 50px;
+}
 
+footer .row div:nth-child(1) {
+  padding: 10px;
 
-  </style>
-</head>
+  width: 40%;
+}
+footer .row div:nth-child(1) img {
+  cursor: pointer;
+  width: 10em;
+  margin-bottom: 10px;
+  padding: 10px;
+}
 
-<body>
-  <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="asp-net-1.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-c.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-core-2.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-core.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-kendoUI.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-mvc.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-syncFusion.png" alt=""></div>
+footer .row div:nth-child(1) p {
+  font-size: 1em;
+  font-weight: 500;
+  color: #1e2d40;
+  font-family: "Nunito", sans-serif;
+  line-height: 24px;
+  padding: 10px;
+}
+footer .row .smedia {
+  margin-bottom: 20px;
+}
 
+footer .row .smedia #icon {
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 2em;
+  color: rgba(1, 41, 112, 0.5);
+}
 
+footer .row .smedia #icon:hover {
+  color: #1e2d40;
+}
 
-      <div class="swiper-slide"><img src="asp-net-1.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-c.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-core-2.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-core.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-kendoUI.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-mvc.png" alt=""></div>
-      <div class="swiper-slide"><img src="asp-net-syncFusion.png" alt=""></div>
-      
-    </div>
-    <div class="swiper-pagination "></div>
-  </div>
+footer .row div:nth-child(2) {
+  padding: 10px;
+}
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+footer .row div:nth-child(2) h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
 
-  <!-- Initialize Swiper with Autoplay -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 4,
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2000,  // Slide delay in milliseconds (2 seconds)
-        disableOnInteraction: false,  // Continue autoplay after interaction
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
-</body>
+footer .row div:nth-child(2) ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-</html>
+footer .row div:nth-child(2) ul li {
+  cursor: pointer;
+  color: #013289;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 1.05em;
+}
 
+footer .row div:nth-child(2) ul li:hover {
+  color: #1e2d40;
+}
 
+footer .row div:nth-child(3) {
+  padding: 10px;
+}
 
+footer .row div:nth-child(3) h4 {
+  position: relative;
+  font-size: 1.1em;
+  font-weight: bold;
+}
 
+footer .row div:nth-child(3) ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+footer .row div:nth-child(3) ul li {
+  cursor: pointer;
+  color: #013289;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 1.05em;
+}
 
+footer .row div:nth-child(3) ul li:hover {
+  color: #1e2d40;
+}
 
+footer .row div:nth-child(4) {
+  padding: 10px;
+}
 
+footer .row div:nth-child(4) a {
+  text-decoration: none;
+  color: #1e2d40;
+  font-size: 1.3em;
+}
 
+footer .row div:nth-child(4) a:hover {
+  color: #013289;
+}
 
+footer .row div:nth-child(4) h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
+footer .row div:nth-child(4) ul {
+  list-style: none;
+  padding: 0;
+}
 
+footer .row div:nth-child(4) ul li {
+  cursor: pointer;
+  color: #1e2d40;
 
+  font-weight: 500;
+  font-size: 1em;
+}
 
+footer .row div:nth-child(4) ul span {
+  color: black;
+  font-size: 1.3em;
+}
 
+footer .row div:nth-child(4) ul li:hover {
+  color: #013289;
+}
 
-___________________________
-<section class="content-7">
+a {
+  text-decoration: none;
+}
 
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./image/asp-net-1.webp" alt="asp-net-1" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-c.webp" alt="asp-net-c" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-core-2.webp" alt="asp-net-core-2" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-core.webp" alt="asp-net-core" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-kendoUI.webp" alt="asp-net-kendoUI" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-mvc.webp" alt="asp-net-mvc" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-syncFusion.webp" alt="asp-net-syncFusion" loading="lazy"></div>
-  
-  
-  
-        <!-- <div class="swiper-slide"><img src="./image/asp-net-1.webp" alt="asp-net-1" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-c.webp" alt="asp-net-c" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-core-2.webp" alt="asp-net-core-2" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-core.webp" alt="asp-net-core" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-kendoUI.webp" alt="asp-net-kendoUI" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-mvc.webp" alt="asp-net-mvc" loading="lazy"></div>
-        <div class="swiper-slide"><img src="./image/asp-net-syncFusion.webp" alt="asp-net-syncFusion" loading="lazy"></div> -->
-        
-      </div>
-      <div class="swiper-pagination "></div>
-    </div>
-</section>
+@media (max-width: 800px) {
+  footer {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+  }
 
+  footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+    gap: 10px;
+  }
 
+  footer .row div:nth-child(1) {
+    width: 100%;
+  }
+  footer .row div:nth-child(1) img {
+    font-size: 1em;
+  }
 
+  footer .row .smedia {
+    margin-bottom: 20px;
+  }
 
+  footer .row .smedia #icon {
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 2em;
+    color: rgba(1, 41, 112, 0.5);
+  }
+
+  footer .row .smedia a {
+    text-decoration: none;
+  }
+
+  footer .row .smedia #icon:hover {
+    color: #1e2d40;
+  }
+
+  footer .row div:nth-child(2) h4 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  footer .row div:nth-child(2) ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer .row div:nth-child(2) ul li {
+    cursor: pointer;
+    color: #013289;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+
+  footer .row div:nth-child(2) ul li:hover {
+    color: #1e4030;
+  }
+
+  footer .row div:nth-child(3) h4 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  footer .row div:nth-child(3) ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer .row div:nth-child(3) ul li {
+    cursor: pointer;
+    color: #013289;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+
+  footer .row div:nth-child(3) ul li:hover {
+    color: #1e2d40;
+  }
+
+  footer .row div:nth-child(4) {
+    padding: 10px;
+  }
+
+  footer .row div:nth-child(4) a {
+    text-decoration: none;
+    color: #1e2d40;
+    font-size: 1.3em;
+  }
+
+  footer .row div:nth-child(4) a:hover {
+    color: #013289;
+  }
+
+  footer .row div:nth-child(4) h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  footer .row div:nth-child(4) p {
+    font-size: 0.9em;
+  }
+
+  footer .row div:nth-child(4) ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  footer .row div:nth-child(4) ul li {
+    cursor: pointer;
+    color: #1e2d40;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 0.9em;
+  }
+
+  footer .row div:nth-child(4) ul span {
+    color: black;
+    font-size: 1.1em;
+  }
+
+  footer .row div:nth-child(4) ul li:hover {
+    color: #013289;
+  }
+}
 
 
 
 
 ---------------------------------------------------
 
- <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
-        <img src="./image/p-6.webp" alt="p-6" loading="lazy" />
-        <img src="./image/p-5.webp" alt="p-5" loading="lazy" />
-        <img src="./image/net-9.webp" alt="net-9" loading="lazy" />
-        <img src="./image/pm-1.webp" alt="pm-1" loading="lazy" />
-        <img src="./image/net-1.webp" alt="net-1" loading="lazy" />
-        <img src="./image/p-1.webp" alt="p-1" loading="lazy" />
-        <img src="./image/p-8.webp" alt="p-8" loading="lazy" />
-        <img src="./image/pr-6.webp" alt="pr-6" loading="lazy" />
-        <img src="./image/p-2.webp" alt="p-2" loading="lazy" />
-        <img src="./image/net-2.webp" alt="net-2" loading="lazy" />
-        <img src="./image/net-10.webp" alt="net-10" loading="lazy" />
-        <img src="./image/net-11.webp" alt="net-11" loading="lazy" />
-        <img src="./image/p-11.webp" alt="p-11" loading="lazy" />
-        <img src="./image/pr-5.webp" alt="pr-5" loading="lazy" />
-        <img src="./image/pr-7.webp" alt="pr-7" loading="lazy" />
-        <img src="./image/p-9.webp" alt="p-9" loading="lazy" />
-        <img src="./image/net-6.webp" alt="net-6" loading="lazy" />
-        <img src="./image/mohit.webp" alt="mohit" loading="lazy" />
-        <img src="./image/net-3.webp" alt="net-3" loading="lazy" />
-        <img src="./image/p-4.webp" alt="p-4" loading="lazy" />
-        <img src="./image/net-7.webp" alt="net-7" loading="lazy" />
-        <img src="./image/net-8.webp" alt="net-8" loading="lazy" />
-        <img src="./image/mobile-1.webp" alt="mobile-1" loading="lazy" />
-        <img src="./image/mobile-2.webp" alt="mobile-2" loading="lazy" />
-        <img src="./image/mobile-3.webp" alt="mobile-3" loading="lazy" />
-        <img src="./image/mobile-4.webp" alt="mobile-4" loading="lazy" />
-        <img src="./image/mobile-5.webp" alt="mobile-5" loading="lazy" />
-        <img src="./image/mobile-6.webp" alt="mobile-6" loading="lazy" />
-        
+@media (max-width: 800px) {
+  [data-aos] {
+    opacity: 1 !important; /* Set opacity to fully visible */
+    transform: none !important; /* Remove transformation */
+    transition: none !important; /* Disable animation transitions */
+  }
+  .nav {
+    padding: 8px 2vw;
+    color: white;
+    z-index: 999;
+    width: 97%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .nav img {
+    margin-left: 13px;
+    height: 13vw;
+    max-height: 60px;
+  }
+  .nav-part2 {
+    display: none;
+  }
 
+  .button {
+    display: block;
+    color: black;
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  .button #menu {
+    font-weight: 500;
+    display: block;
+    font-size: 2rem;
+  }
+  .button #close {
+    display: none;
+    font-size: 1.5rem;
+  }
+  .mobile-nav {
+    height: auto;
+    width: 96vw;
+    margin-top: -75px;
 
+    position: fixed;
+    top: 120px;
+    right: 15px;
+    bottom: 15px;
+    left: 2vw;
+    z-index: 999;
+    border-radius: 15px;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+    height: fit-content;
+    display: none;
+  }
 
+  .mobile-nav ul {
+    margin-left: 0;
+    list-style: none;
+  }
 
+  .mobile-nav ul li {
+    font-weight: 500;
+    width: 95%;
+    height: auto;
 
+    font-size: 1.3rem;
+    cursor: pointer;
 
+    color: #1e2d40;
+  }
 
+  .mob-dropdown1 {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    display: none;
+  }
 
-
-
-
-        <div class="info">
-            <h1>Hashcut
-             </h1>
-         <p> With Hashcut Chrome extension, you can clip, annotate and share directly from YouTube!</p>
-            <i class="ri-link"></i>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-           <!-- <div class="img-wrapper">
-          <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
-
-          <div class="info">
-            <h1>Company Name</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga quam corporis laborum inventore non, excepturi laboriosam officiis error magnam.</p>
-         <i class="ri-link"></i>
-          </div>
-          
-        </div>
-
-        <div class="img-wrapper">
-          <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
-          <div class="info">
-            <h1>Company Name</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias explicabo non omnis laboriosam ut at ipsam impedit deserunt illo pariatur.</p>
-        <i class="ri-link"></i>
-          </div>
-        </div>
-
-        <div class="img-wrapper">
-          <img src="./image/html-1.webp" alt="html-1" loading="lazy" />
-          <div class="info">
-            <h1>Company Name</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem mollitia nostrum error ex? Delectus nobis iure illum ipsa quia nulla.</p>
-            <i class="ri-link"></i>
-          </div>
-        </div> -->
-
-        <!-- ------------------------------- -->
+  .mob-dropdown2 {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    display: none;
+  }
+}
