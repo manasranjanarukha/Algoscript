@@ -440,11 +440,12 @@ a {
 
   .content-2 .row {
     margin: 0;
+
     flex-wrap: wrap;
   }
 
   .content-2 .row .div-1 {
-    width: 100%;
+    width: 90%;
   }
 
   .content-2 .row .div-1 img {
@@ -454,7 +455,13 @@ a {
   .content-2 .row .div-2 {
     width: 100%;
   }
+  .content-2 .row .div-2 ul {
+    padding: 0;
+  }
 
+  .content-2 .row .div-2 ul li {
+    margin-left: 18px;
+  }
   .content-2 .row .div-2 p {
     width: 100%;
     font-size: 1em;
@@ -462,11 +469,10 @@ a {
     color: #1e2d40;
     line-height: 1.5;
     text-wrap: wrap;
-    margin-left: 10px;
   }
 
   .content-2 .row .div-2 li {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 
