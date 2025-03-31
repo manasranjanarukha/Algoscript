@@ -370,10 +370,8 @@ a {
 }
 .content-2 .row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 100px 70px 100px 70px;
+  gap: 20px;
+  margin: 55px;
 }
 
 .content-2 .row .div-1 {
