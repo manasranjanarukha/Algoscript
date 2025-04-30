@@ -27,7 +27,8 @@ html {
 }
 
 .nav img {
-  max-height: 60px;
+  max-height: 90px;
+  width: 200px;
   object-fit: cover;
   cursor: pointer;
 }
@@ -176,15 +177,16 @@ a {
     color: white;
     z-index: 999;
     width: 97%;
-    height: 45px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
   }
 
   .nav img {
-    margin-left: 13px;
-    height: 13vw;
-    max-height: 60px;
+    max-height: 58px;
+    width: 150px;
+    object-fit: cover;
+    cursor: pointer;
   }
   .nav-part2 {
     display: none;
@@ -1015,6 +1017,8 @@ footer .row div:nth-child(1) {
 }
 footer .row div:nth-child(1) img {
   cursor: pointer;
+
+  height: 100px;
   width: 10em;
   margin-bottom: 10px;
   padding: 10px;
@@ -1160,9 +1164,12 @@ a {
 
   footer .row div:nth-child(1) {
     width: 100%;
+    padding: 0;
   }
   footer .row div:nth-child(1) img {
     font-size: 1em;
+
+    padding: 0;
   }
 
   footer .row .smedia {

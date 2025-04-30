@@ -1,155 +1,18 @@
-footer {
-  width: 100%;
-  height: 100%;
-  margin-top: 50px;
-}
-
-footer .row {
-  display: flex;
-  height: auto;
-
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 50px;
-}
-
-footer .row div:nth-child(1) {
-  padding: 10px;
-
-  width: 40%;
-}
 footer .row div:nth-child(1) img {
   cursor: pointer;
+
+  height: 100px;
   width: 10em;
   margin-bottom: 10px;
   padding: 10px;
+ 
 }
 
-footer .row div:nth-child(1) p {
-  font-size: 1em;
-  font-weight: 500;
-  color: #1e2d40;
-  font-family: "Nunito", sans-serif;
-  line-height: 24px;
-  padding: 10px;
-}
-footer .row .smedia {
-  margin-bottom: 20px;
-}
 
-footer .row .smedia #icon {
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 2em;
-  color: rgba(1, 41, 112, 0.5);
-}
 
-footer .row .smedia #icon:hover {
-  color: #1e2d40;
-}
 
-footer .row div:nth-child(2) {
-  padding: 10px;
-}
+media
 
-footer .row div:nth-child(2) h4 {
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-footer .row div:nth-child(2) ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-footer .row div:nth-child(2) ul li {
-  cursor: pointer;
-  color: #013289;
-  margin-bottom: 15px;
-  font-weight: 500;
-  font-size: 1.05em;
-}
-
-footer .row div:nth-child(2) ul li:hover {
-  color: #1e2d40;
-}
-
-footer .row div:nth-child(3) {
-  padding: 10px;
-}
-
-footer .row div:nth-child(3) h4 {
-  position: relative;
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-footer .row div:nth-child(3) ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-footer .row div:nth-child(3) ul li {
-  cursor: pointer;
-  color: #013289;
-  margin-bottom: 15px;
-  font-weight: 500;
-  font-size: 1.05em;
-}
-
-footer .row div:nth-child(3) ul li:hover {
-  color: #1e2d40;
-}
-
-footer .row div:nth-child(4) {
-  padding: 10px;
-}
-
-footer .row div:nth-child(4) a {
-  text-decoration: none;
-  color: #1e2d40;
-  font-size: 1.3em;
-}
-
-footer .row div:nth-child(4) a:hover {
-  color: #013289;
-}
-
-footer .row div:nth-child(4) h4 {
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-footer .row div:nth-child(4) ul {
-  list-style: none;
-  padding: 0;
-}
-
-footer .row div:nth-child(4) ul li {
-  cursor: pointer;
-  color: #1e2d40;
-
-  font-weight: 500;
-  font-size: 1em;
-}
-
-footer .row div:nth-child(4) ul span {
-  color: black;
-  font-size: 1.3em;
-}
-
-footer .row div:nth-child(4) ul li:hover {
-  color: #013289;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media (max-width: 800px) {
   footer {
     width: 100%;
     height: 700px;
@@ -165,222 +28,42 @@ a {
 
   footer .row div:nth-child(1) {
     width: 100%;
+    padding: 0;
   }
   footer .row div:nth-child(1) img {
     font-size: 1em;
-  }
 
-  footer .row .smedia {
-    margin-bottom: 20px;
-  }
-
-  footer .row .smedia #icon {
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 2em;
-    color: rgba(1, 41, 112, 0.5);
-  }
-
-  footer .row .smedia a {
-    text-decoration: none;
-  }
-
-  footer .row .smedia #icon:hover {
-    color: #1e2d40;
-  }
-
-  footer .row div:nth-child(2) h4 {
-    font-size: 1em;
-    font-weight: bold;
-  }
-
-  footer .row div:nth-child(2) ul {
-    list-style: none;
     padding: 0;
-    margin: 0;
   }
 
-  footer .row div:nth-child(2) ul li {
-    cursor: pointer;
-    color: #013289;
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 1.1em;
-  }
 
-  footer .row div:nth-child(2) ul li:hover {
-    color: #1e4030;
-  }
+  /////
 
-  footer .row div:nth-child(3) h4 {
-    font-size: 1em;
-    font-weight: bold;
-  }
-
-  footer .row div:nth-child(3) ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  footer .row div:nth-child(3) ul li {
-    cursor: pointer;
-    color: #013289;
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 1.1em;
-  }
-
-  footer .row div:nth-child(3) ul li:hover {
-    color: #1e2d40;
-  }
-
-  footer .row div:nth-child(4) {
-    padding: 10px;
-  }
-
-  footer .row div:nth-child(4) a {
-    text-decoration: none;
-    color: #1e2d40;
-    font-size: 1.3em;
-  }
-
-  footer .row div:nth-child(4) a:hover {
-    color: #013289;
-  }
-
-  footer .row div:nth-child(4) h4 {
-    font-size: 1.1em;
-    font-weight: bold;
-  }
-
-  footer .row div:nth-child(4) p {
-    font-size: 0.9em;
-  }
-
-  footer .row div:nth-child(4) ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 30px;
-  }
-
-  footer .row div:nth-child(4) ul li {
-    cursor: pointer;
-    color: #1e2d40;
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 0.9em;
-  }
-
-  footer .row div:nth-child(4) ul span {
-    color: black;
-    font-size: 1.1em;
-  }
-
-  footer .row div:nth-child(4) ul li:hover {
-    color: #013289;
-  }
+  .nav img {
+  max-height: 90px;
+  width: 200px;
+  object-fit: cover;
+  cursor: pointer;
 }
 
 
 
+media   
 
----------------------------------------------------
 
-@media (max-width: 800px) {
-  [data-aos] {
-    opacity: 1 !important; /* Set opacity to fully visible */
-    transform: none !important; /* Remove transformation */
-    transition: none !important; /* Disable animation transitions */
-  }
-  .nav {
+.nav {
     padding: 8px 2vw;
     color: white;
     z-index: 999;
     width: 97%;
-    height: 45px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
   }
 
   .nav img {
-    margin-left: 13px;
-    height: 13vw;
-    max-height: 60px;
-  }
-  .nav-part2 {
-    display: none;
-  }
-
-  .button {
-    display: block;
-    color: black;
-    font-size: 2vw;
-    font-weight: 600;
-  }
-  .button #menu {
-    font-weight: 500;
-    display: block;
-    font-size: 2rem;
-  }
-  .button #close {
-    display: none;
-    font-size: 1.5rem;
-  }
-  .mobile-nav {
-    height: auto;
-    width: 96vw;
-    margin-top: -75px;
-
-    position: fixed;
-    top: 120px;
-    right: 15px;
-    bottom: 15px;
-    left: 2vw;
-    z-index: 999;
-    border-radius: 15px;
-    background-color: #fff;
-    overflow-y: auto;
-    transition: 0.3s;
-    height: fit-content;
-    display: none;
-  }
-
-  .mobile-nav ul {
-    margin-left: 0;
-    list-style: none;
-  }
-
-  .mobile-nav ul li {
-    font-weight: 500;
-    width: 95%;
-    height: auto;
-
-    font-size: 1.3rem;
+    max-height: 58px;
+    width: 150px;
+    object-fit: cover;
     cursor: pointer;
-
-    color: #1e2d40;
   }
-
-  .mob-dropdown1 {
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: 0.3s;
-    display: none;
-  }
-
-  .mob-dropdown2 {
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    display: none;
-  }
-}
-
-
-
-----------------------------------
-
-<a href="./hire-meteor.html"><li>Meteor</li></a>
-<a href="./hire-reporting.html"><li>Reporting</li></a>
