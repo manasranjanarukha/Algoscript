@@ -173,17 +173,18 @@ a {
     transition: none !important; /* Disable animation transitions */
   }
   .nav {
-    padding: 8px 2vw;
+    padding: 0 2vw;
     color: white;
     z-index: 999;
     width: 97%;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
   }
 
   .nav img {
-    max-height: 58px;
+    height: 70px;
+    padding: 10px;
     width: 150px;
     object-fit: cover;
     cursor: pointer;
@@ -1498,7 +1499,7 @@ footer .row {
 
   flex-wrap: wrap;
   gap: 10px;
-  margin: 50px;
+  margin: 50px 0px 50px 50px;
 }
 
 footer .row div:nth-child(1) {
@@ -1509,8 +1510,8 @@ footer .row div:nth-child(1) {
 footer .row div:nth-child(1) img {
   cursor: pointer;
 
-  height: 100px;
-  width: 10em;
+  height: 150px;
+  width: 13em;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -1556,7 +1557,7 @@ footer .row div:nth-child(2) ul {
 footer .row div:nth-child(2) ul li {
   cursor: pointer;
   color: #013289;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 1.05em;
 }
@@ -1584,7 +1585,7 @@ footer .row div:nth-child(3) ul {
 footer .row div:nth-child(3) ul li {
   cursor: pointer;
   color: #013289;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 1.05em;
 }
@@ -1655,12 +1656,12 @@ a {
 
   footer .row div:nth-child(1) {
     width: 100%;
-    padding: 0;
+    padding: 10px;
   }
   footer .row div:nth-child(1) img {
-    font-size: 1em;
+    font-size: 0.8em;
 
-    padding: 0;
+    height: 130px;
   }
 
   footer .row .smedia {
@@ -1681,7 +1682,9 @@ a {
   footer .row .smedia #icon:hover {
     color: #1e2d40;
   }
-
+  footer .row div:nth-child(2) {
+    padding: 10px;
+  }
   footer .row div:nth-child(2) h4 {
     font-size: 1em;
     font-weight: bold;
@@ -1704,7 +1707,9 @@ a {
   footer .row div:nth-child(2) ul li:hover {
     color: #1e4030;
   }
-
+  footer .row div:nth-child(3) {
+    padding: 10px;
+  }
   footer .row div:nth-child(3) h4 {
     font-size: 1em;
     font-weight: bold;
